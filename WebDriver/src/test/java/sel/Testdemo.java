@@ -43,7 +43,8 @@ public class Testdemo
 		//	driver.get("https://demoqa.com/upload-download");
 		//	driver.get("https://demoqa.com/alerts");
 		//	driver.get("https://demoqa.com/webtables");
-			 driver.get("https://demoqa.com/browser-windows");
+		//	 driver.get("https://demoqa.com/browser-windows");
+			driver.get("https://google.com"); 
 		//	driver.get("https://formula1.com"); 
 			driver.manage().window().maximize();
 			
@@ -435,9 +436,9 @@ public void testcase10() throws InterruptedException
 	// } 
 }
 
-@Test
+@Test(enabled=false)
 
-public void testcase11() {
+public void testcase11() throws InterruptedException {
 	JavascriptExecutor	js=( JavascriptExecutor)driver;
 	 
 	 driver.findElement(By.xpath("//*[@name='q']")).sendKeys("cricinfo",Keys.ENTER);
@@ -447,11 +448,13 @@ public void testcase11() {
 	 Thread.sleep(2000);
 	 driver.findElement(By.linkText("India")).click();
 	 Thread.sleep(2000);
-	 js.executeScript("document.getElementsByClassName('ds-flex ds-flex-row ds-space-x-4')[0].scrollIntoView()");
+	// js.executeScript("document.getElementsByClassName('ds-flex ds-flex-row ds-space-x-4')[0].scrollIntoView()");
 	 Thread.sleep(4000);
-	 driver.findElement(By.partialLinkText("Ganguly, Morgan, Muralidaran, Misbah, Johnson among 53 players in Legends League Cricket")).click();
+	// driver.findElement(By.partialLinkText("Ganguly, Morgan, Muralidaran, Misbah, Johnson among 53 players in Legends League Cricket")).click();
 	
 }
+
+
 
 
 

@@ -35,5 +35,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Forza Ferrari/Desktop/Softwares and stuff/testng-7.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Forza Ferrari/Downloads/junit-4.13.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
